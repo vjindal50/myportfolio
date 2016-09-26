@@ -295,11 +295,13 @@ a:hover, a:focus{
 .certiskill{
 	display: inline-block;
 	padding-top: 50px;
+	padding-left: 40px;
 }
 
 #skills{
 	color: white;
 	margin-left: 50px;
+	vertical-align: top;
 }
 
 #skill_list{ 
@@ -313,7 +315,7 @@ a:hover, a:focus{
 }
 
 #mysql{
-	padding-left: 50px;
+	padding-left: 100px;
 
 }
 
@@ -322,9 +324,20 @@ a:hover, a:focus{
 }
 
 #skill_list2{ 
-	list-style-position: 
+	vertical-align: top; 
 }
 
 #row1{
 	position: center;
 }
+
+#pic2{
+	height: 120%;
+	width: 120%;
+}
+
+#pic1{
+	height: 110%;
+	width: 110%;
+}
+
