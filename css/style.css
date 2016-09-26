@@ -284,6 +284,47 @@ a:hover, a:focus{
 	color: #337ab7;
 }
 
-#form{
-	margin-left: 40px;
+#skills_certification{
+	background-attachment: fixed;
+	background-image: url(http://pixelhub.me/pixelhub1/images/uploads/1385467739background_portfolio.jpg); 
+	background-size: cover !important;
+	padding: 50px;
+	background-position: center;
+}
+
+.certiskill{
+	display: inline-block;
+	padding-top: 50px;
+}
+
+#skills{
+	color: white;
+	margin-left: 50px;
+}
+
+#skill_list{ 
+ 	font-size: 1.4em;
+ }
+
+
+#HTMLJSCSS{
+	padding-left: 50px;
+	object-position: center;
+}
+
+#mysql{
+	padding-left: 50px;
+
+}
+
+.clicktoview{
+	color: white;
+}
+
+#skill_list2{ 
+	list-style-position: 
+}
+
+#row1{
+	position: center;
 }
