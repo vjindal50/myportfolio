@@ -8,6 +8,26 @@ nav.navbar-default {
 	font-size: 18px;
 }
 
+#collassable-nav{
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+[if screenWidth < 786px]{
+	#mypic{
+		height: 80%;
+		width: 80%;
+	}
+}
+
+#navbarToggle{
+	margin: 26px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    margin: 26px;
+}
+
 body{
 	background-color: #556677;
 
@@ -23,6 +43,7 @@ ul {
 
 .navbar-default .navbar-brand{
 	color: white;
+	padding-top: 35px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -46,9 +67,9 @@ header{
 
 #home{
 	background-attachment: fixed;
-	background-image: url(http://il6.picdn.net/shutterstock/videos/10359077/thumb/2.jpg); 
+	background-image: url(http://freecodesource.com/myspace-graphics/images_db/242/prod_1011_39718.jpg); 
 	background-size: cover !important;
-	padding-top: 50px;
+	padding-top: 80px;
 	padding-bottom: 50px;
 	background-position: center;
 }
@@ -341,3 +362,7 @@ a:hover, a:focus{
 	width: 110%;
 }
 
+#ggsipupic1{
+	width: 80%;
+	height: 80%;
+}
