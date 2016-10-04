@@ -104,6 +104,11 @@ p{
 	font-size: 30px;
 }
 
+.img-thumbnail{
+	padding: 7px;
+	border: 9px solid #ddd;
+}
+
 #about{
 	background-attachment: fixed;
 	background-image: url(http://www.ellietstudio.com/images/bg.jpg); 
