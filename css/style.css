@@ -259,7 +259,7 @@ ul#links li{
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #187DBB;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -399,7 +399,12 @@ a:hover, a:focus{
 	height: 100px;
 	width: 550px;
 }
+	
 
 .row2{
 	text-align: center;
+}
+
+.modal3{
+	text-align: left;
 }
