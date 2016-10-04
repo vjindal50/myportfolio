@@ -13,11 +13,9 @@ nav.navbar-default {
 	vertical-align: top;
 }
 
-[if screenWidth < 786px]{
-	#mypic{
-		height: 80%;
-		width: 80%;
-	}
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 #navbarToggle{
