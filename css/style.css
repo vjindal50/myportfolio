@@ -431,4 +431,19 @@ a:hover, a:focus{
 		font-size: 22px;
 
 	}
+
+	#skills, #HTMLJSCSS, #mysql{
+		margin-left: 0px;
+	}
+
+	#pic1, #pic2{
+		height: 98%;
+		width: 98%;
+
+	}
+
+	#Songdew_logo, #semgeeks_logo, #cel_logo, #mobilecomm_logo{
+		height: 70%;
+		width: 70%;
+	}
 }
