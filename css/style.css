@@ -80,7 +80,7 @@ div{
 }
 
 #mypic{
-	padding-top: 50px;
+	margin-top: 50px;
 	background-color: transparent;
 }
 
@@ -169,6 +169,12 @@ ul#links li{
 	margin-left: 70px;
 }
 
+.float2{
+	margin: auto;
+	display: inline-block;
+	padding: 20px;
+}
+
 /*----------modal styling code---------------*/
 
 .modal {
@@ -242,6 +248,27 @@ ul#links li{
 
 /*----the end----*/
 
+#projects{
+	background-attachment: fixed;
+	background-image: url(https://userscontent2.emaze.com/images/f2be0f9c-855d-4554-b302-5514e5725ff4/6d9f92ccaa9e81f2b8d5fe5e86fb4b33.jpg); 
+	background-size: cover !important;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-position: center;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #semgeeks_work, #songdew_work, #cel_work, #mobilecomm_work{
 	font-size: 1.5em;
 	padding-top: 5px;
@@ -285,7 +312,7 @@ ul#links li{
 }
 
 #combined1{
-	margin-left: 250px;
+	margin-left: 10vw;
 }
 
 .college{
@@ -321,7 +348,7 @@ a:hover, a:focus{
 
 #skills{
 	color: white;
-	margin-left: 50px;
+	margin-left: 60px;
 	vertical-align: top;
 }
 
@@ -331,12 +358,12 @@ a:hover, a:focus{
 
 
 #HTMLJSCSS{
-	padding-left: 50px;
+	margin-left: 60px;
 	object-position: center;
 }
 
 #mysql{
-	padding-left: 100px;
+	margin-left: 60px;
 
 }
 
@@ -365,4 +392,14 @@ a:hover, a:focus{
 #ggsipupic1{
 	width: 80%;
 	height: 80%;
+}
+
+.bsize{
+	margin-top: 40px;
+	height: 100px;
+	width: 550px;
+}
+
+.row2{
+	text-align: center;
 }
