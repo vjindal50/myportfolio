@@ -23,34 +23,35 @@
     <div class = "navbar-header">
       <a class = "navbar-brand" href = "#home">Vaibhav Jindal</a>
     
-     <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+     <!-- <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
    
-     </button>
+     </button> -->
     </div>
      
 
-    <div id="collapsable-nav" class="collapse navbar-collapse nav navbar-nav">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li id="navHomeButton" class="visible-xs active">
-              <a href = "#about"><span></span> About </a>
-            </li>
-            <li>
-              <a href = "#Professional_Experience" id="navMenuButton"><span></span><br class="hidden-xs"> Professional Experience </a>
-            </li>
-            <li>
-              <a href = "#education"><span></span><br class="hidden-xs"> Education </a>
-            </li>
-            <li>
-              <a href ="#skills_certification"><span></span><br class="hidden-xs"> Certifications and Skills</a>
-            </li>
+    <div>
+           <ul id="nav-list">
             <li >
-              <a href ="#projects"><span></span><br class="hidden-xs"> Projects </a>
+              <a href = "#about"><br class="hidden-xs"> About </a>
             </li>
-            <li><a href ="#contact"><span></span><br class="hidden-xs"> Contact Me </a><li>
+            <li class="">
+              <a href = "#Professional_Experience" ><br class="hidden-xs"> Professional Experience </a>
+            </li>
+            <li class="">
+              <a href = "#education" ><br class="hidden-xs"> Education </a>
+            </li>
+            <li class="">
+              <a href ="#skills_certification"><br class="hidden-xs"> Certifications and Skills</a>
+            </li>
+            <li class="">
+              <a href ="#projects"><br class="hidden-xs"> Projects </a>
+            </li>
+            <li class=""><a href ="#contact"><br class="hidden-xs"> Contact Me </a>
+            </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
   	</div>
@@ -89,7 +90,7 @@
   <h1 class="text-center" id="heading">Who am I ???</h1>
   <div class="row">
   	<div id="aboutme">
-	  	<p style="text-align:justify">Currently seeking full-time position in field of computer engineering and web development.
+	  	<p style="text-align:justify">Currently seeking full-time position in field of computer and software engineering and web development.
 		<br><br>
 		I am dynamic and dedicated professional who loves to face challenges. I am very calm person, have a leadership quality in me and also a great urge to learn new technologies. I am very good in bonding, supporting and helping people. I possess excellent communication skills and have quality to grasp things very fast. I love learning things to its depth. I am a kind of person with positive attitude and work with great energy.
 		<br><br>
@@ -335,31 +336,42 @@
 
 <div class="container-fluid font" id="skills_certification">
   <h1 class="section-header text-center">Certification and Skills</h1>
-  <div class="row" id="row1" class="col-xs-12 col-sm-12 col-md-12">
-  	<div class="certiskill" id="skills">
-  		<div id="skill_list2">
-	  		<ul id="skill_list">
-	  			<li><b>Programming Languages:</b> Java, C++, C, Python, MATLAB, VHDL<br></li><br>
-	  			<li><b>Web Technologies:</b> HTML5, CSS3, JavaScript, Twitter bootstrap, <br>PHP, AngularJS<br></li><br>
-	  			<li><b>Tools:</b> Eclipse, Sublime Text, Microsoft Visual Studios, MS-Office<br></li><br>
-	  			<li><b>Operating Systems:</b> Windows, Ubuntu, MacOS<br></li>
-	  		</ul>
-  		</div>
-  	</div>
+  <div class="row" id="row1" >
 
-  	<div class="certiskill" id="HTMLJSCSS" col-xs-12 col-sm-12 col-md-6>
+
+  	<div class="certiskill col-xs-12 col-sm-12 col-md-6 col-lg-4" id="HTMLJSCSS" >
   		<div>
   			<a href="certi/htmlcssjs.pdf"><img src="media/htmlcssjs.jpg" id="pic1"></a>
   			<h4 class="clicktoview">Click to view</h4>
   		</div>
   	</div>
 
-  	<div class="certiskill"   id="mysql" col-xs-12 col-sm-12 col-md-6>
+	<div class="certiskill col-xs-12 col-sm-12 col-md-6 col-lg-4" id="angularjs" >
+  		<div>
+  			<a href="certi/angular.pdf"><img src="media/angular.jpg" id="pic3"></a>
+  			<h4 class="clicktoview">Click to view</h4>
+  		</div>
+  	</div>
+
+
+  	<div class="certiskill col-xs-12 col-sm-12 col-md-6 col-lg-4"   id="mysql" >
 	  	<div>
 	  		<a href="certi/sql.pdf"><img src="media/sql.jpg" id="pic2"></a>
 	  		<h4 class="clicktoview">Click to view</h4>
 	  	</div>
 	</div>
+
+	<div class="certiskill col-xs-12 col-sm-12 col-md-6 col-lg-12" id="skills">
+  		<div id="skill_list2">
+	  		<ul id="skill_list">
+	  			<li><b>Programming Languages:</b> Java, C++, C, Python, MATLAB, VHDL</li>
+	  			<li><b>Web Technologies:</b> HTML5, CSS3, JavaScript, Twitter bootstrap, PHP, AngularJS</li>
+	  			<li><b>Tools:</b> Eclipse, Sublime Text, Microsoft Visual Studios, MS-Office<br></li><br>
+	  			<li><b>Operating Systems:</b> Windows, Ubuntu, MacOS</li>
+	  		</ul>
+  		</div>
+  	</div>
+
   </div>
 </div>
 
@@ -381,7 +393,14 @@
   	<div class="float2">
   		<button class=" button bsize" id="Restaurant"><h4> Restaurant Website Development</h4>
   		<h5> coursera.org, John Hopkins University</h5>
-  		<h5> July 2016</h5></button> </div>
+  		<h5> July 2016</h5></button> 
+  	</div>
+
+  	<div class="float2">
+  		<button class=" button bsize" id="Restaurant1"><h4> Restaurant Website Development (AngularJS)</h4>
+  		<h5> coursera.org, John Hopkins University</h5>
+  		<h5> July 2016</h5></button> 
+  	</div>
 
   	<div class="float2">
   		<button class="button bsize" id="Canvas"><h4>Canvas Manipulaton (JAVA)</h4>
@@ -464,6 +483,27 @@
 	</div>
 
 	<div id="RestaurantModal" class="modal modal3">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <span class="close">×</span>
+	      <h2>Restaurant Website Development</h2>
+	      <h4>coursera.org, John Hopkins University</h4>
+	    </div>
+	    <div class="modal-body">
+	      <ul id="semgeeks_work">
+	      	<li>Used HTML5, CSS3, Bootstrap and JavaScript intensively to develop and implement restaurant website.</li>
+	      	<li>Created various webpages for restaurant for both mobile view and desktop view while working on GITHub.</li>
+	      	<li>Made sure that the site was responsive and didnot take much time to load.</li>
+	      </ul>
+	    </div>
+	    <div class="modal-footer">
+	      <h2>July 2016</h2>
+	      <h4>Click outside to exit</h4>
+	    </div>
+	  </div>
+	</div>
+
+	<div id="Restaurant1Modal" class="modal modal3">
 	  <div class="modal-content">
 	    <div class="modal-header">
 	      <span class="close">×</span>
@@ -698,11 +738,12 @@
 
 <!--<h1><br><br><br><br>Hey guys! Welcom to my website</h1>-->
 
-<script type="text/javascript" src="js/script.js"></script>
+
 <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/ajax-utils.js"></script>
-  <script src="js/scripts.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ajax-utils.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/script.js"></script>
 
 
 </body>
