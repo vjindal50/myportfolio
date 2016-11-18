@@ -409,9 +409,9 @@ a:hover, a:focus{
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
     .bsize{
-	margin-top: 40px;
-	height: 150px;
-	width: 300px;
+		margin-top: 40px;
+		height: 150px;
+		width: 300px;
 	}
 
 	#aboutme{
@@ -453,7 +453,26 @@ a:hover, a:focus{
 	}
 }
 
-@media screen and (min-width: 770px){
+@media screen and (max-width: 770px){
+	#aboutme{
+		margin-right: 0px;
+		margin-left: 0px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	p{
+		font-size: 22px;
+
+	}
+
+}
+
+@media screen and (max-width: 490px){
+	#abouthide{
+		visibility: hidden;
+	}
+
 
 }
 	
