@@ -154,6 +154,24 @@ span8.onclick = function() {
     modal8.style.display = "none";
 }
 
+var modal18 = document.getElementById('Restaurant1Modal');
+
+// Get the button that opens the modal
+var btn18 = document.getElementById("Restaurant1");
+
+// Get the <span> element that closes the modal
+var span18 = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn18.onclick = function() {
+    modal18.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span18.onclick = function() {
+    modal18.style.display = "none";
+}
+
 
 // Get the modal
 var modal9 = document.getElementById('CanvasModal');
@@ -335,23 +353,7 @@ span17.onclick = function() {
 }
 
 // Get the modal
-var modal18 = document.getElementById('Restaurant1Modal');
 
-// Get the button that opens the modal
-var btn18 = document.getElementById("Restaurant1");
-
-// Get the <span> element that closes the modal
-var span18 = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal
-btn18.onclick = function() {
-    modal18.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span18.onclick = function() {
-    modal18.style.display = "none";
-}
 
 
 
@@ -381,6 +383,9 @@ window.onclick = function(event) {
      else if (event.target == modal8) {
         modal8.style.display = "none";
     }
+    else if (event.target == modal18) {
+        modal18.style.display = "none";
+    }
      else if (event.target == modal9) {
         modal9.style.display = "none";
     }
@@ -407,9 +412,6 @@ window.onclick = function(event) {
     }
      else if (event.target == modal17) {
         modal17.style.display = "none";
-    }
-    else if (event.target == modal18) {
-        modal18.style.display = "none";
     }
 }
 
